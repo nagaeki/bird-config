@@ -2,7 +2,7 @@
 
 ## Initialize git directory
 
-```cd; mkdir bird-config```
+```cd; mkdir bird-config; cd bird-config```
 
 ```git remote add origin https://TOKEN@github.com/nagaeki/bird-config.git```
 
