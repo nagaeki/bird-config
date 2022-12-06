@@ -8,6 +8,10 @@
 
 ```git pull origin main```
 
+## Update immediately
+
+```chmod +x update.sh; bash update.sh```
+
 ## Add Crontab
 
 ```(crontab -l 2>/dev/null; echo "*/2 * * * * cd /root/bird-config; chmod +x update.sh; bash update.sh") | crontab -```
