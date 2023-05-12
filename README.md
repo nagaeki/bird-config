@@ -16,6 +16,7 @@ The bird config for my network
 #  (199683, 202,*)   ixp rs routes
 #  (199683, 203,*)   peer routes
 #  (199683, 204,*)   customer routes
+#  (199683, 205,1)   routes on this router
 #  (199683, 209,*)   ibgp routes
 #
 # Control Community:
