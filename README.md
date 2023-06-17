@@ -2,6 +2,12 @@
 
 The bird config for my network
 
+## Install BIRD
+
+```
+wget https://github.com/nagaeki/bird-config/raw/main/install-bird.sh && chmod +x install-bird.sh && ./install-bird.sh && rm install-bird.sh
+```
+
 ## Update BIRD
 
 ```
