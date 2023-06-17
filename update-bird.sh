@@ -2,6 +2,7 @@
 apt update
 apt install -y build-essential autoconf git flex bison m4 libssh-dev libncurses-dev libreadline-dev
 cd
+rm -r bird
 git clone https://gitlab.nic.cz/labs/bird.git -b v2.13
 cd bird
 autoreconf
