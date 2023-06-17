@@ -2,6 +2,12 @@
 
 The bird config for my network
 
+## Update BIRD
+
+wget https://github.com/nagaeki/bird-config/raw/main/update-bird.sh && chmod +x update-bird.sh && ./update-bird.sh && rm update-bird.sh
+
+## BGP Communities
+
 ```
 # Internal Community:
 #  (199683,<999, 0)  Community for all my node
