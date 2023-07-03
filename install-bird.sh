@@ -9,5 +9,5 @@ autoreconf
 ./configure --prefix= --sysconfdir=/etc/bird --runstatedir=/var/run/bird
 make && make install
 rm -r /root/bird/
-wget https://github.com/nagaeki/bird-config/raw/main/bird.service -O /etc/systemd/system/multi-user.target.wants/bird.service
+wget https://github.com/nagaeki/bird-config/raw/main/bird.service -O /etc/systemd/system/bird.service
 systemctl enable bird.service --now
