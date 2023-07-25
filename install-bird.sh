@@ -11,3 +11,4 @@ autoreconf
 make && make install
 rm -r /root/bird/
 systemctl enable bird.service --now
+systemctl restart bird.service
