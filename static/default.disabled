@@ -1,0 +1,11 @@
+protocol static static_default {
+        route ::/0 via ;
+        ipv6 {
+                import filter {
+                        bgp_large_community.add((OWNAS,1,0));
+                        bgp_large_community.add((OWNAS,2,0));
+                        accept;
+                };
+                export none;
+        };
+}
